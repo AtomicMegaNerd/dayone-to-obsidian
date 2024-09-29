@@ -18,6 +18,10 @@ PyYAML="==6.0.2"
 [tool.mypy]
 strict = true
 
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
