@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dayone-to-obsidian"
+version = "0.1.0"
+description = "Convert Day One JSON exports to Obsidian Markdown"
+authors = ["Chris Dunphy <chris@megaparsec.ca>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "processor"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+python_dateutil="==2.9.0.post0"
+pytz="==2024.2"
+PyYAML="==6.0.2"
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
