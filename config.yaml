@@ -2,11 +2,11 @@
 # Set this as the location where your Journal.json file is located
 # Use single quotes to preserve the path as is
 # The path can contain spaces
-ROOT: '/path/to/day one journals'
+ROOT: "/Users/rcd/Desktop/"
 
 # name of folder where journal entries will end up
-JOURNAL_FOLDER: "Journal"
-JOURNAL_JSON: "Journal.json"
+JOURNAL_FOLDER: "/Users/rcd/Local/RCD_DayOne_Import"
+JOURNAL_JSON: "RCD.json"
 
 # All fields below are optional. Set them to "" or remove them if not needed.
 

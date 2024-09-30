@@ -161,7 +161,7 @@ with open(fn, encoding="utf-8") as json_file:
 
         # Save entries organised by year, year-month, year-month-day.md
         yearDir = os.path.join(journalFolder, str(createDate.year))
-        monthDir = os.path.join(yearDir, createDate.strftime("%Y-%m"))
+        monthDir = os.path.join(yearDir, createDate.strftime("%m"))
 
         if not os.path.isdir(yearDir):
             os.mkdir(yearDir)
